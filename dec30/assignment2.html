@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Assignment 2 of dec 30| Geekster</title>
+    </head>
+    <body style="text-align: center; background-color: rosybrown;">
+        <h1>Application Form</h1>
+        <form>
+            <label> Full Name*</label><br/>
+            <input type="text" placeholder=" Enter Full Name" name="name" required/>
+            <br/><br/>
+            <label> Email Address*</label><br/>
+            <input type="email" placeholder=" Enter Email Address" name="email" required/>
+            <br/><br/>
+            <label >Select Course*</label><br/>
+            <select name="course" required>
+                <option disabled selected>Select Course</option>
+                <option value="full_stack">Full Stack Web Development</option>
+                <option value="advance">Advance Web Development</option>
+            </select>
+            <br/><br/>
+            <label> Phone number*</label><br/>
+            <input type="text" placeholder=" Enter Phone number" name="mo_num" required maxlength="10"/>
+            <br/><br/>
+            <label> Highest Degree*</label><br/>
+            <select name="high_degree" required>
+                <option disabled selected >Select Highest Degree</option>
+                <option value="1">B.E or B.Tech CS/IT</option>
+                <option value="2">B.E or B.Tech Other</option>
+                <option value="3">M.S or M.Tech CS/IT</option>
+                <option value="4">M.S or M.Tech Other</option>
+                <option value="5">BCA</option>
+                <option value="6">MCA</option>
+                <option value="7">Others</option>
+            </select>
+            <br/><br/>
+            <label> Year Of Completion*</label><br/>
+            <select name="Y_O_Completion" required>
+                <option disabled selected>Select Year of Completion</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+            <br/><br/>
+            <label> Programming Skills*</label><br/>
+            <select name="Pro_Skills" >
+                <option disabled selected>Select programming skill level</option>
+                <option value="no_coding">NO Coding Skills</option>
+                <option value="basic_coding">Basic Coding Skills</option>
+                <option value="Intermediate_coding">Intermediate Coding Skills</option>
+                <option value="good_coding">Good Coding Skills</option>
+            </select>
+            <br/><br/>
+            <input type="checkbox" required/>
+            <label>By signing up, you agree to the Terms and Conditions*.</label><br/><br/>
+            <button>Submit</button>
+            
+        </form>
+    </body>
+</html>
