@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    
+}
+body{
+    border:1px solid;
+    margin: 5px;
+}
+
+.main{
+    border: 2px solid purple  ;
+    background-color: #FFFFFF;
+    margin: 100px ;
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+    
+}
+.sec1{
+    text-align: center;
+}
+.sec1>h3{
+    margin-top: 50px;
+}
+.sec1>h1, b{
+    margin-top: 80px;
+}
+.sec2{
+    margin-top: 100px;
+    text-align: justify;
+}
+.sec2>p::first-letter{
+    font-size: 70px;
+}
+.cen{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
